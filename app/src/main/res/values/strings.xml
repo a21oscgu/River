@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">The 5 longest rivers 🏞️</string>
+    <string name="app_name">Rivers</string>
     <string name="about">About</string>
 
     <!--list_items.xml-->
