@@ -25,7 +25,7 @@ public class Adapter extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.textViewItem.setText(rivers.get(position).getName());
+        holder.textViewItem.setText(rivers.get(position).getLocation());
     }
 
     @Override

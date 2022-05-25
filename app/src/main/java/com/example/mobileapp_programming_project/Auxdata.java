@@ -8,16 +8,19 @@ package com.example.mobileapp_programming_project;
   }"
  */
 
-import java.lang.reflect.Array;
 
 public class Auxdata {
 
-    private Array countries;
+    private String countries;
     private String wiki;
     private String img;
 
-    public Array getCountries() {
-        return countries;
+    public String getCountries() {
+        if (countries.equals("")) {
+            return null;
+        } else {
+            return countries;
+        }
     }
 
     public String getWiki() {
