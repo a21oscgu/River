@@ -72,7 +72,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
         android:id="@+id/countries_data"
-        android:layout_width="wrap_content"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         app:layout_constraintLeft_toRightOf="@id/countries"
@@ -80,7 +80,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
         android:text="@string/data"
         android:textSize="18sp"
         android:paddingBottom="10dp"
-        />
+        /><!--This TextView should have 'android:layout_width="wrap_content"' instead. -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
