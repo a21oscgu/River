@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">The 5 longest rivers 🏞️</string>
     <string name="about">About</string>
+
+    <!--list_items.xml-->
+    <string name="name">Name</string>
+    <string name="continent">Continent:</string>
+    <string name="data">data</string>
+    <string name="country">Country:</string>
 </resources>
