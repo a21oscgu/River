@@ -7,10 +7,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ViewHolder extends RecyclerView.ViewHolder {
-    public TextView item;
+    public TextView textViewItem;
     public ViewHolder(@NonNull View itemView) {
         super(itemView);
         // Variablen kopplas med textview (se item.xml)
-        item = itemView.findViewById(R.id.my_item);
+        textViewItem = itemView.findViewById(R.id.item);
     }
 }
