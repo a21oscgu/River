@@ -1,60 +1,56 @@
 package com.example.mobileapp_programming_project;
 
 /* Rivers:
-  [{
+[{
 	"ID": "1",
 	"name": "Nile",
 	"type": "a21oscgu",
-	"company": "",
-	"location": "Africa",
+	"company": "Africa",
+	"location": "Egypt, Sudan, Ethiopia, Uganda, Congo, Kenya, Tanzania, etc.",
 	"category": "Rivers",
 	"size": 0,
 	"cost": 0,
-	"auxdata": "{”countries\":[”Egypt”,”Sudan”,”Ethiopia”,”Uganda”,”Congo”,”Kenya”,”Tanzania”,”Rwanda”,”Burundi”],”wiki”:”https://en.wikipedia.org/wiki/Nile”,”img”:”https://en.wikipedia.org/wiki/Nile#/media/File:Nile_River_and_delta_from_orbit.jpg”}"
+	"auxdata": {}
 }, {
 	"ID": "2",
 	"name": "Amazon River",
 	"type": "a21oscgu",
-	"company": "",
-	"location": "South America",
+	"company": "South America",
+	"location": "Peru, Colombia, Brazil",
 	"category": "Rivers",
 	"size": 0,
 	"cost": 0,
-	"auxdata": "{”countries\":[”Peru”,”Colombia”,”Brazil”],”wiki”:”https://en.wikipedia.org/wiki/Amazon_River”,”img”:”https://en.wikipedia.org/wiki/Amazon_River#/media/File:Manaus-Amazon-NASA.jpg”}"
+	"auxdata": {}
 }, {
 	"ID": "3",
 	"name": "Yangtze",
 	"type": "a21oscgu",
-	"company": "",
-	"location": "Asia",
+	"company": "Asia",
+	"location": "China",
 	"category": "Rivers",
 	"size": 0,
 	"cost": 0,
-	"auxdata": "{”countries\":[”China”],”wiki”:”https://en.wikipedia.org/wiki/Yangtze”,”img”:”https://en.wikipedia.org/wiki/Yangtze#/media/File:Hutiaoxia.jpg”}"
+	"auxdata": {}
 }, {
 	"ID": "4",
 	"name": "Mississippi River",
 	"type": "a21oscgu",
-	"company": "",
-	"location": "North America",
+	"company": "North America",
+	"location": "United States",
 	"category": "Rivers",
 	"size": 0,
 	"cost": 0,
-	"auxdata": "{”countries\":[”United States”],”wiki”:”https://en.wikipedia.org/wiki/Mississippi_River”,”img”:”https://en.wikipedia.org/wiki/Mississippi_River#/media/File:Efmo_View_from_Fire_Point.jpg”}"
+	"auxdata": {}
 }, {
 	"ID": "5",
 	"name": "Yenisey",
 	"type": "a21oscgu",
-	"company": "",
-	"location": "Asia",
+	"company": "Asia",
+	"location": "Mongolia, Russia",
 	"category": "Rivers",
 	"size": 0,
 	"cost": 0,
-	"auxdata": "{
-	”countries\":[”Mongolia”,”Russia”],
-	”wiki”:”https://en.wikipedia.org/wiki/Yenisey”,
-	”img”:”https://en.wikipedia.org/wiki/Yenisey#/media/File:Yenisei_Ob_Kara_Sea.jpg”
-	}"
+	"auxdata": {}
 }]
  */
 
