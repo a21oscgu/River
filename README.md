@@ -10,21 +10,21 @@
 <p align="left">Figur 1 - Skärmklippet, som är taget i appen <i>River</i> på sidan MainActivity, visar kort information om de fyra längsta floderna i världen.</p>
 
 ```
-ex
+Code-example
 ```
-<p align="left">Figur 2 - Kodsnutten visar...</p>
+<p align="left">Figur 2 - Kodsnutten visar... .</p>
 
 ## WebView
 
 **På aktiviteten About-Activity finns det lite kort information om appen och aktiviteten är skapad med en intern WebView (HTML).**
 
 <p align="left"><img src="/Screenshot_20220526-142439.png" width="270px"></p>
-<p align="left">Figur 3 - Skärmklippet visar AboutActivity i appen <i>River</i></p>
+<p align="left">Figur 3 - Skärmklippet visar AboutActivity i appen <i>River.</i></p>
 
 **AboutActivity befinner sig i appens option-menu.**
 
 <p align="left"><img src="/Screenshot_20220526-142428.png" width="270px"></p>
-<p align="left">Figur 4 - Skärmklippet visar MainActivity i appen <i>River</i> med options-menu öppen</p>
+<p align="left">Figur 4 - Skärmklippet visar MainActivity i appen <i>River</i> med options-menu öppen.</p>
 
 ```
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
@@ -33,7 +33,7 @@ ex
         android:title="@string/about"/>
 </menu>
 ```
-<p align="left">Figur 5 - Kodsnutten visar option_menu.xml med allt dess innehåll. Detta objektet (item) syns även i figur 4. </p>
+<p align="left">Figur 5 - Kodsnutten visar option_menu.xml med allt dess innehåll. Detta objektet (item) syns även i figur 4.</p>
 
 ## Övrigt
 
@@ -42,4 +42,4 @@ ex
 **Appens app-icon har fått ett nytt utseende.**
 
 <p align="left"><img src="/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="192px"></p>
-<p align="left">Figur 6 - App icon</p>
+<p align="left">Figur 6 - App icon.</p>
