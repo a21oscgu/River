@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     WebView aboutWebView;
 
     ArrayList<River> riversArray;
-
     RecyclerView recyclerView;
 
     private River[] rivers;
@@ -36,7 +35,15 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         //Starts downloading JSON-data
         String JSON_URL = "https://mobprog.webug.se/json-api?login=a21oscgu";
         new JsonTask(this).execute(JSON_URL);
-        //recyclerView.getAdapter().notifyDataSetChanged();
+
+        // En recycler view instans skapas
+        recyclerView = findViewById(R.id.riverRecyclerview);
+        riversArray = new ArrayList<>();
+
+        Adapter adapter = new Adapter(riversArray);
+        // Connects Adapter and RecyclerView
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(new Adapter(riversArray));
     }
 
     // Creates option-menu
@@ -63,14 +70,9 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
         // Unmarshall JSON -> a single object
         rivers = gson.fromJson(json, River[].class);
 
-        riversArray = new ArrayList<>();
         //ArrayList<River> riversArray = new ArrayList<>(); SOLUTION?
 
         Collections.addAll(riversArray, rivers);
-
-        recyclerView = findViewById(R.id.riverRecyclerview);
-        // Connects Adapter and RecyclerView
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(new Adapter(riversArray));
+        //recyclerView.getAdapter().notifyDataSetChanged();
     }
 }
